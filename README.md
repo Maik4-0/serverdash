@@ -1,6 +1,6 @@
 # Server Dashboard
 
-> ✅ Works on Linux Mint — not tested on Windows or macOS.
+> ✅ Works on Linux Mint — Does not work on Windows & MacOS
 
 A lightweight desktop app to monitor and control your local servers (XAMPP, Apache, MySQL, PostgreSQL, MongoDB, Redis) with a simple GUI.
 
