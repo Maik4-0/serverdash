@@ -1,8 +1,8 @@
 # Server Dashboard
 
-> Works on Linux Mint — Does not work on Windows & MacOS
-> 
-> Issue with it not properly closing on CTRL + C in terminal
+> Works on Linux Mint — Does not work on Windows - Have not tried MacOS
+
+> Closes properly with CTRL + C in terminal
 
 A lightweight desktop app to monitor and control your local servers (XAMPP, Apache, MySQL, PostgreSQL, MongoDB, Redis) with a simple GUI.
 
