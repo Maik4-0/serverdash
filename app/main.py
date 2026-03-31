@@ -396,7 +396,7 @@ class MainWindow(QMainWindow):
         show_action = QAction("Show", self)
         show_action.triggered.connect(self.show)
         quit_action = QAction("Quit", self)
-        quit_action.triggered.connect(QApplication.quit)
+        quit_action.triggered.connect(self.quit_app)
         tray_menu.addAction(show_action)
         tray_menu.addSeparator()
         tray_menu.addAction(quit_action)
@@ -408,6 +408,10 @@ class MainWindow(QMainWindow):
         for s in self.sections:
             s.refresh()
         self.ports.refresh()
+
+    def quit_app(self):
+        self.tray.hide()
+        QApplication.quit()
 
     def closeEvent(self, event):
         event.ignore()
