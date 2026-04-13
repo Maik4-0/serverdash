@@ -59,6 +59,9 @@ Edit `app/config.json` to change the color scheme:
 ```
 
 Restart the app after saving for changes to apply.
+## Xampp Apache2 issue
+When you run Apache2 (for me on port:80) you can not run Xampp or else it wil kill Apache2.
+When you have Xampp running you can not run Apache2 it will give an error.
 
 ## Adding Services Without Password Prompts
 
