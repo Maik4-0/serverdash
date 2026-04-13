@@ -98,7 +98,7 @@ SECTIONS = [
         "services": [
             {
                 "name": "Apache2",
-                "subtitle": "System",
+                "subtitle": "System, XAMPP kills Apache2 on launch",
                 "check": "systemctl is-active --quiet apache2",
                 "start": "sudo systemctl start apache2",
                 "stop":  "sudo systemctl stop apache2",
